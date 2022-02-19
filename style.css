@@ -75,3 +75,45 @@ button {
     vertical-align: middle;
     line-height: 250px;
 }
+
+.sectiontwo {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: extra-bold;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.iconrow {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0px 175px;
+}   
+
+.iconrow p {
+    font-size: 18px;
+    text-align: center;
+    width: 175px;
+}
+
+.box { 
+    height: 175px;
+    width: 175px;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.sectionthree {
+    background-color: #e5e7eb;
+    height: 350px;
+    width: 100%;
+}
